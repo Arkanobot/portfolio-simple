@@ -6,7 +6,19 @@ module.exports = {
     "./public/index.html",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        wiggle: "wiggle 1s ease-in-out infinite",
+        scale: "scale 1s ease-in-out 1",
+      },
+      keyframes: {
+        wiggle: {
+          "0%": { transform: "rotate(-3deg) scale(1)" },
+          "50%": { transform: "rotate(3deg) scale(1.10)" },
+          "100%": { transform: "rotate(-3deg) scale(1)" },
+        },
+      },
+    },
+    plugins: [],
   },
-  plugins: [],
 };
