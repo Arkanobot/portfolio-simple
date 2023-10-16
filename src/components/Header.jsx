@@ -36,7 +36,7 @@ function Header() {
               <Link to="Projects">Projects</Link>
             </li>
             <li className="pl-4 transition duration-100 hover:scale-110">
-              <Link to="Contact">Contact</Link>
+              <Link to="ContactMe">Contact</Link>
             </li>
           </ul>
         </div>
