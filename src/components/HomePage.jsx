@@ -1,8 +1,8 @@
 import profilePic from "../assets/profilePic.jpg";
 function HomePage() {
   return (
-    <div className="bg-[#eef0f0] dark:bg-[#0d1117] dark:text-[#fafbfc] min-h-[80vh] px-5 flex justify-center place-items-center flex-wrap">
-      <div className="my-10 max-h-[50h] max-w-[50vh] overflow-hidden rounded-full transition duration-100 hover:scale-110">
+    <div className="bg-[#eef0f0] dark:bg-[#0d1117] dark:text-[#fafbfc] min-h-[80vh] px-5 flex justify-center place-items-center flex-wrap-reverse md:flex-wrap">
+      <div className="md:my-10 max-h-[50h] max-w-[50vh] overflow-hidden rounded-full transition duration-100 hover:scale-110">
         <img src={profilePic} alt="My profile pic" />
       </div>
       <div className="self-center m-10">
@@ -20,14 +20,14 @@ function HomePage() {
             incidunt.
           </p>
         </div>
-        <div className="flex flex-wrap">
-          <div className="mx-2 md:mx-5 my-2 lg:mx-0 min-h-[75px] md:min-h-[110px] xl:min-h-[20vh] p-2 lg:min-w-[110px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border-2 hover:dark:border-white bg-[#FF914D] border-2 border-solid border-black hover:bg-[#eef0f0] hover:border-[#FF914D] hover:text-[#FF914D] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
+        <div className="flex">
+          <div className="mx-2 md:mx-5 my-2 lg:mx-0 min-h-[75px] md:min-h-[110px] xl:min-h-[20vh] p-2 lg:min-w-[110px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border hover:dark:border-white bg-[#FF914D] border border-solid border-black hover:bg-[#eef0f0] hover:border-[#FF914D] hover:text-[#FF914D] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
             <p className="self-center md:font-bold md:text-2xl">Resume</p>
           </div>
-          <div className="mx-2 md:mx-5 my-2 min-h-[75px] md:min-h-[110px] xl:min-h-[20vh] p-2 lg:min-w-[110px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border-2 hover:dark:border-white bg-[#7ED957] border-2 border-solid border-black hover:bg-[#eef0f0] hover:border-[#7ED957] hover:text-[#7ED957] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
+          <div className="mx-2 md:mx-5 my-2 min-h-[75px] md:min-h-[110px] xl:min-h-[20vh] p-2 lg:min-w-[110px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border hover:dark:border-white bg-[#7ED957] border border-solid border-black hover:bg-[#eef0f0] hover:border-[#7ED957] hover:text-[#7ED957] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
             <p className="self-center md:font-bold md:text-2xl">Projects</p>
           </div>
-          <div className="mx-2 lg:mx-0 my-2 min-h-[75px] md:min-h-[110px] xl:min-h-[20vh] p-2 lg:min-w-[110px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border-2 hover:dark:border-white bg-[#38B6FF] border-2 border-solid border-black hover:bg-[#eef0f0] hover:border-[#38B6FF] hover:text-[#38B6FF] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
+          <div className="mx-2 lg:mx-0 my-2 min-h-[75px] md:min-h-[110px] xl:min-h-[20vh] p-2 lg:min-w-[110px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border hover:dark:border-white bg-[#38B6FF] border border-solid border-black hover:bg-[#eef0f0] hover:border-[#38B6FF] hover:text-[#38B6FF] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
             <p className="self-center md:font-bold md:text-2xl">Contact</p>
           </div>
         </div>
