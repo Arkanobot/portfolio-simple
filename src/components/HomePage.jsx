@@ -28,17 +28,17 @@ function HomePage() {
           </p>
         </div>
         <div className="flex flex-wrap md:flex-nowrap justify-center">
-          <Link to="portfolio-simple/Projects">
+          <Link to="/Projects">
             <div className="mx-2 md:mx-5 my-2 lg:mx-0 min-h-[105px] md:min-h-[160px] xl:min-h-[20vh] p-2 min-w-[105px] md:min-w-[160px] lg:min-w-[160px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border hover:dark:border-white bg-[#FF914D] border border-solid border-black hover:bg-[#eef0f0] hover:border-[#FF914D] hover:text-[#FF914D] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
               <p className="self-center md:font-bold md:text-2xl">Projects</p>
             </div>
           </Link>
-          <Link to="portfolio-simple/Employment">
+          <Link to="/Employment">
             <div className="mx-2 md:mx-5 my-2 min-h-[105px] md:min-h-[160px] xl:min-h-[20vh] p-2 lg:min-w-[160px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border hover:dark:border-white bg-[#7ED957] border border-solid border-black hover:bg-[#eef0f0] hover:border-[#7ED957] hover:text-[#7ED957] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
               <p className="self-center md:font-bold md:text-2xl">Employment</p>
             </div>
           </Link>
-          <Link to="portfolio-simple/Education">
+          <Link to="/Education">
             <div className="mx-2 lg:mx-0 my-2 min-h-[105px] md:min-h-[160px] xl:min-h-[20vh] p-2 min-w-[105px] md:min-w-[160px] lg:min-w-[160px] xl:min-w-[20vh] dark:bg-white hover:dark:bg-[#010409] hover:dark:text-[#fafbfc] hover:border-solid hover:border hover:dark:border-white bg-[#38B6FF] border border-solid border-black hover:bg-[#eef0f0] hover:border-[#38B6FF] hover:text-[#38B6FF] rounded-full flex place-content-center justify-center text-black transition duration-100 hover:scale-110 hover:animate-wiggle">
               <p className="self-center md:font-bold md:text-2xl">Education</p>
             </div>
