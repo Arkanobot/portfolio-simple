@@ -8,8 +8,12 @@ function Projects() {
         </div>
         {projects.projects.map((item) => {
           return (
-            <div className="flex flex-col flex-wrap p-[3vw]" key={item.name}>
-              <div className={`flex ${item.style} flex-wrap`}>
+            <div className="flex flex-col flex-wrap p-[3vw]" key={item.key}>
+              <div
+                className={`flex flex-wrap ${
+                  item.style ? "flex-row" : "flex-row-reverse"
+                }`}
+              >
                 <div className="lg:w-[40vw] mx-2 my-2">
                   <a href={`${item.link}`}>
                     <img

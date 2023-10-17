@@ -5,12 +5,12 @@ import HomePage from "./components/HomePage";
 import Employment from "./components/Employment";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter basename="/">
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -19,7 +19,7 @@ function App() {
           <Route path="/Education" element={<Education />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
