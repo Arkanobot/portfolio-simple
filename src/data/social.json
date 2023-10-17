@@ -1,0 +1,24 @@
+{
+  "social": [
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/shreyas-bhat-k",
+      "style": true
+    },
+    {
+      "name": "HackerRank",
+      "link": "https://www.hackerrank.com/shreyas1744",
+      "style": true
+    },
+    {
+      "name": "Discord",
+      "link": "https://discord.com/users/273714636635897856",
+      "style": true
+    },
+    {
+      "name": "Github",
+      "link": "https://www.github.com/Arkanobot",
+      "style": false
+    }
+  ]
+}

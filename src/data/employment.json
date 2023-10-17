@@ -1,0 +1,16 @@
+{
+  "employment": [
+    {
+      "title": "Full Stack Web Developer",
+      "institution": "Private Freelancer",
+      "description": "As a versatile freelancer, I have successfully navigated diverse sectors including Healthcare, E-commerce, and chat applications, delivering robust solutions from simple CRUD operations to complex permission-based applications integrating numerous APIs. Proficient in HTML, CSS, JavaScript, TypeScript, Python, and C, I have adeptly crafted dynamic user interfaces and efficient back-end systems. My expertise extends to frameworks such as React and Redux, design tools like TailwindCSS and Bootstrap, and database management using MySQL and MongoDB. Leveraging AWS, Google Cloud Platform, and Digital Ocean, I have developed scalable applications, complemented by intuitive data visualization using Chart.js and Moment.js. With a strong grasp of Express.js and MQTT, I have created seamless interfaces, while ensuring comprehensive testing with Jest, Mocha, and Chai. Additionally, I have streamlined API documentation using Swagger and enhanced user interactions through Axios, Formik, and Yup.",
+      "year": "2022 - Present"
+    },
+    {
+      "title": "Talent Acquisition Specalist",
+      "institution": "IBM India Pvt Ltd",
+      "description": "In my role as a Talent Acquisition Specialist at IBM India, I meticulously managed candidate documentation, conducting preliminary background checks before forwarding them to specialized teams. I prioritized transparency, promptly notifying relevant stakeholders of any discrepancies. Facilitating the hiring process, I efficiently prepared and dispatched offer letters to successful candidates. Additionally, I demonstrated my commitment to enhancing operational efficiency by regularly compiling and analyzing comprehensive weekly metrics, providing crucial insights into candidate status and recruitment progress. My contribution extended to knowledge management, as I authored a detailed handbook for the team, streamlining the onboarding process and fostering the seamless integration of new members into the talent acquisition function.",
+      "year": "2021 - 2022"
+    }
+  ]
+}

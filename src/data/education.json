@@ -1,0 +1,34 @@
+{
+  "education": [
+    {
+      "title": "Bachelor of Science in Computer Science (B.Sc CS) \r\n(Currently Pursuing)",
+      "institution": "Birla Institute of Technology & Science (BITS Pilani)",
+      "description": "Pursuing a Bachelor of Science in Computer Science at BITS Pilani, I am immersed in a comprehensive curriculum that merges theoretical knowledge with practical expertise. The program delves into fundamental computer science concepts, algorithms, and data structures, while fostering a deep understanding of software development, system analysis, and computer architecture. Practical projects and internships augment classroom learning, providing hands-on experience in software design, development, and implementation.",
+      "year": 2023
+    },
+    {
+      "title": "Full Stack Web Development",
+      "institution": "Private Institute",
+      "description": "Immersed in a rigorous Full Stack Web Development bootcamp focusing on the MERN stack, I gained comprehensive proficiency in building dynamic web applications. The program emphasized hands-on experience with MongoDB, Express.js, React, and Node.js, fostering a deep understanding of both front-end and back-end development. Through intensive projects and real-world simulations, I honed skills in designing responsive user interfaces, implementing robust APIs, and deploying scalable applications. Collaborative coding challenges and mentorship from industry experts enriched my problem-solving abilities and nurtured a strong grasp of modern web development practices. This bootcamp equipped me with the essential tools and expertise to excel in the dynamic world of MERN stack development.",
+      "year": 2022
+    },
+    {
+      "title": "Master of Business Administration (MBA)",
+      "institution": "SDM Mangalore, Affil. to Mangalore University",
+      "description": "During my MBA journey, I actively engaged in and secured victories in several national-level management fests, showcasing my adeptness in strategic problem-solving and effective leadership. These experiences enhanced my proficiency in critical areas such as business strategy, marketing, and finance. Additionally, under the guidance of my project mentor, I conducted extensive research, delving into contemporary business challenges, and deriving actionable insights. This research not only amplified my analytical and research skills but also bolstered my understanding of practical business applications. These multifaceted experiences within my MBA program have shaped me into a versatile professional equipped to navigate the complexities of the corporate world.",
+      "year": 2020
+    },
+    {
+      "title": "Post Graduate Certificate Program in Digital Marketing",
+      "institution": "Manipal Academy of Higher Education (MAHE Manipal)",
+      "description": "Immersed in the Post Graduate Certificate Program in Digital Marketing at MAHE Manipal, I acquired comprehensive expertise in both organic and paid marketing strategies, delving into areas such as SEO, SEM, and Social Media Marketing including specific platforms like Facebook, Instagram and Linkedin. Additionally, under the guidance of my research mentor, I conducted an in-depth analysis of a company's digital footprint, crafting tailored recommendations to enhance their online presence and drive growth. This program not only honed my practical skills in digital marketing but also equipped me with a strategic mindset to navigate the ever-evolving landscape of the digital sphere.",
+      "year": 2019
+    },
+    {
+      "title": "Bachelor of Commerce (B.Com)",
+      "institution": "Canara First Grade College, Affil. to Mangalore University",
+      "description": "During my Bachelor of Commerce degree, I actively participated in inter-college competitions, showcasing my adeptness in critical thinking and problem-solving. Concurrently, my involvement in the Youth Red Cross and Photography Club fostered my leadership and teamwork skills, contributing to a well-rounded personal development. Additionally, my active participation in blood donation drives demonstrated my commitment to social welfare and community service. This multifaceted engagement, along with my academic pursuits, equipped me with a holistic perspective, honed my interpersonal skills, and instilled a sense of responsibility, preparing me for dynamic professional challenges ahead.",
+      "year": 2018
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "title": "A Simple Sign up Webpage",
+      "image": "https://ik.imagekit.io/arkanoBot/Sample-Webpage.jpg?updatedAt=1697580017582",
+      "link": "https://arkanobot.github.io/SignUp_Page_HTML-CSS/",
+      "style": "flex-row",
+      "stack": "HTML, CSS",
+      "description": "This project demonstrates a simple web design approach, solely utilizing html and css for the entire webpage and its functionalities. Employing css classes, the project effectively styles the entire webpage. Notably, the input boxes incorporate format checks for both email and password entries, ensuring data validity before submission. The submit button specifically mandates the inclusion of email and password data for successful submission. Furthermore, interactive elements, including various buttons, feature hover animations and transitions, enhancing the user experience and engagement on the webpage."
+    },
+    {
+      "title": "Backend Solution for a Client in Healthcare Sector",
+      "image": "https://ik.imagekit.io/arkanoBot/backend-bb.jpg?updatedAt=1697580017625",
+      "link": "#",
+      "style": "flex-row-reverse",
+      "stack": "Magic, Node.js, Express.js, MongoDb, Mongoose, Rate-limit, Cors, emailjs, moment, mqtt Swagger(docs)",
+      "description": "This backend solution, tailored for a healthcare client, leverages node. Js, express. Js, mongodb, mongoose, rate-limit, and cors. The apis were meticulously documented using swagger docs. Meeting specific client demands, the implementation incorporates magic link as an alternative sign-in method. The solution adopts a permission-based structure, granting administrators greater authority over doctors and patient clients. Notably, the backend server efficiently tracks patients' medication details within the hospital, triggering mqtt notifications to patients' iot devices based on scheduled medication times. In case of non-response within thirty minutes, automated email notifications are sent to the patient and their designated guardian/spouse/relative, ensuring prompt attention and care."
+    },
+    {
+      "title": "A Configureable MQTT Interface",
+      "image": "https://ik.imagekit.io/arkanoBot/mqtt-interface.jpg?updatedAt=1697580017590",
+      "link": "#",
+      "style": "flex-row",
+      "stack": "HTML, CSS, Javascript, React, Redux, MQTT",
+      "description": "Designed for a healthcare client in latvia, this functional mqtt interface facilitates seamless communication with the client's backend server. Tailored specifically for healthcare patients, the interface serves as a medication reminder, incentivizing consistent and timely intake through gamification. Operating on the designated patient channel, the mqtt interface promptly displays pertinent messages regarding prescribed medications and their intake count. Users are prompted to acknowledge the message and take the medication within a thirty-minute window, ensuring adherence to the prescribed schedule."
+    },
+    {
+      "title": "Backend Solution for a Freelancing Platform",
+      "image": "https://ik.imagekit.io/arkanoBot/Backend-ChT.jpg?updatedAt=1697580017594",
+      "link": "#",
+      "style": "flex-row-reverse",
+      "stack": "Magic, Node.js, Express.js, MongoDb, Mongoose, Rate-limit, Cors, Swagger(docs), Weavy(Chat App)",
+      "description": "Tailored for a freelancing platform, this backend solution harnesses node. Js, express. Js, mongodb, mongoose, rate-limit, and cors. Thorough api documentation is ensured via swagger docs, while weavy serves as the preferred in-platform chat option, meeting the client's specific communication needs. Additionally, magic link serves as an alternative sign-in method, aligning with the client's security preferences. The solution adopts a hierarchical permission-based structure, empowering admins with elevated authority over managers, who in turn oversee freelancers and clients. This structure ensures a streamlined workflow and efficient management within the freelancing ecosystem."
+    },
+    {
+      "title": "Cryptocurrency Dashboard",
+      "image": "https://ik.imagekit.io/arkanoBot/Crypto-Dashboard.jpg?updatedAt=1697580017597",
+      "link": "https://arkanobot.github.io/cryptocurrency-dashboard/",
+      "style": "flex-row",
+      "stack": "HTML, CSS, JavaScript, React, Redux, Tailwind, ChartJs, Axios",
+      "description": "This dynamic crypto currency tracking dashboard, designed to monitor up to two hundred different cryptocurrencies, is built using html, css, and javascript, with react providing the underlying framework. Data retrieval is facilitated through axios, fetching information from the coingecko api. The dashboard provides comprehensive insights, displaying real-time details including current prices, price changes, market cap, and volume for each cryptocurrency. Additionally, users can access detailed charts depicting the performance of each currency over customizable timeframes, ranging from one day to one year. The integration of tailwindcss, tailwind-elements, chart. Js, redux, and react-icons ensures an intuitive and visually engaging user experience. Year."
+    },
+    {
+      "title": "Simple Get API Backend Project",
+      "image": "https://ik.imagekit.io/arkanoBot/Simple-GetApi-Backend-Project.jpg?updatedAt=1697580017606",
+      "link": "https://get-youtube-subscribers-r8k8.onrender.com",
+      "style": "flex-row-reverse",
+      "stack": "Node.js, Express.js, MongoDB, Mongoose, Swagger",
+      "description": "This simple node express. Js app comprises four key routes. The first route, '/subscribers', retrieves all subscriber data from the database, displaying it as a json object containing subscriber details such as id, name, subscribedchannel, and subscribeddate. If no data is found in the database, a corresponding message is returned. The second route, '/subscribers/names', specifically fetches and presents the names and subscribedchannel details of the subscribers in the database. Similarly, it returns a relevant message in case no data is found. The third route, '/subscribers/: id', is tailored to retrieve comprehensive details of a specific subscriber identified by the provided id parameter. In the event of no user matching the specified id, an error message is displayed, with the necessary ids obtainable from the '/subscribers' endpoint. Finally, the default route, '/docs', facilitates easy access to the server documentation for convenient reference."
+    },
+    {
+      "title": "Flashcard Generator",
+      "image": "https://ik.imagekit.io/arkanoBot/flashcard-generator.jpg?updatedAt=1697580017619",
+      "link": "https://shreyas-flashcard-generator.netlify.app/",
+      "style": "flex-row",
+      "stack": "HTML, CSS, JavaScript, React, Redux, Tailwind, Toastify, React-Router, React-Icons, React-Share, Formik, Yup",
+      "description": "The flashcard generator app, developed with react, redux, formik, tailwind, react-router-dom, and react-icons, facilitates the seamless creation of flashcards based on user input on the 'create new' page. Users can conveniently manage their created flashcard groups on the 'my flashcards' page, with options to view, share, delete, or download individual flashcards from the respective pages. Leveraging local storage functionality, the app ensures persistent accessibility, allowing users to retrieve their flashcards even after closing the tab or revisiting the app after a period of time. This comprehensive functionality, combined with an intuitive user interface, enables a seamless and efficient flashcard management experience for users."
+    },
+    {
+      "title": "To-Do App with a working Backend",
+      "image": "https://ik.imagekit.io/arkanoBot/Todo-App.jpg?updatedAt=1697580017587",
+      "link": "https://github.com/Arkanobot/todo-app-with-backend/tree/main",
+      "style": "flex-row-reverse",
+      "stack": "MERN Stack",
+      "description": "The simple to-do app, integrated with a robust backend system, is developed using the mern stack. Its frontend, constructed with html, css, javascript, react, redux, bootstrap, and axios, ensures a seamless user experience. The backend system, leveraging cors, env, express, node. Js, mongodb, and mongoose, effectively handles create, read, update, and delete (crud) operations based on user input from the frontend. This comprehensive integration of frontend and backend technologies facilitates smooth task management and ensures a user-friendly interface, allowing users to efficiently organize and update their to-do lists."
+    },
+    {
+      "title": "E-Commerce Website",
+      "image": "https://ik.imagekit.io/arkanoBot/Ecommerce-Website.png?updatedAt=1697580017622",
+      "link": "https://github.com/Arkanobot/e-commerce-website/tree/main/my-app",
+      "style": "flex-row",
+      "stack": "HTML, CSS, JavaScript, React, React-Router, React-Currency-Format, Firebase",
+      "description": "The sample e-commerce website serves as a practical project for learning react and firebase integration. It features user login functionality using firebase database, allowing users to add items to their individual carts, remove items, browse the hardcoded product listings, and proceed to the checkout page seamlessly. Each user's cart is stored in the firebase db as a unique entity, ensuring data privacy and a personalized shopping experience. This project serves as an ideal demonstration of how react and firebase can be effectively utilized to create a dynamic and interactive e-commerce platform, providing a hands-on learning experience for individuals looking to explore these technologies."
+    },
+    {
+      "title": "To-Do App (React Class Based)",
+      "image": "https://ik.imagekit.io/arkanoBot/Todo-App.jpg?updatedAt=1697580017587",
+      "link": "https://github.com/Arkanobot/To-Do-List-Class-Based-Js-/tree/main/To-Do_List(Class_Based)",
+      "style": "flex-row-reverse",
+      "stack": "HTML, CSS, JavaScript, React, Bootstrap",
+      "description": "The simple to-do app operates with local storage, allowing users to create and manage tasks efficiently. Developed using html, css, javascript, and react bootstrap, the app offers a user-friendly interface where tasks can be added using the text input box. These tasks are seamlessly stored in the local storage for convenient access. Users can easily manipulate tasks, choosing to mark them as completed, edit them, or delete them entirely, providing a comprehensive task management experience. This straightforward react front-end project, integrating local storage functionality, offers users a simple yet effective solution for organizing and tracking their tasks."
+    }
+  ]
+}

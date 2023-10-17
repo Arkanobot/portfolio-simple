@@ -2,9 +2,9 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
-import Resume from "./components/Resume";
+import Employment from "./components/Employment";
 import Projects from "./components/Projects";
-import ContactMe from "./components/ContactMe";
+import Education from "./components/Education";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -14,9 +14,9 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/Resume" element={<Resume />} />
           <Route path="/Projects" element={<Projects />} />
-          <Route path="/ContactMe" element={<ContactMe />} />
+          <Route path="/Employment" element={<Employment />} />
+          <Route path="/Education" element={<Education />} />
         </Routes>
         <Footer />
       </BrowserRouter>
