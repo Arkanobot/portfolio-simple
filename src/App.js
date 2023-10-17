@@ -5,7 +5,7 @@ import HomePage from "./components/HomePage";
 import Employment from "./components/Employment";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   return (
