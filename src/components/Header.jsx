@@ -69,13 +69,13 @@ function Header() {
             } `}
           >
             <li className="px-2 md:px-4 md:border-r-2 border-solid dark:border-white border-black transition duration-100 hover:scale-110">
-              <Link to="Projects">Projects</Link>
+              <Link to="portfolio-simple/Projects">Projects</Link>
             </li>
             <li className="px-2 md:px-4 md:border-r-2 border-solid dark:border-white border-black transition duration-100 hover:scale-110">
-              <Link to="Employment">Employment</Link>
+              <Link to="portfolio-simple/Employment">Employment</Link>
             </li>
             <li className="px-2 md:pl-4 transition duration-100 hover:scale-110">
-              <Link to="Education">Education</Link>
+              <Link to="portfolio-simple/Education">Education</Link>
             </li>
           </ul>
         </div>
